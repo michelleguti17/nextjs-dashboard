@@ -6,6 +6,8 @@ import { z } from 'zod';
 import type { User } from '@/app/lib/definitions';
 import bcrypt from 'bcrypt';
 
+
+
 async function getUser(email: string): Promise<User | undefined> {
     try {
       const user = await sql<User>`SELECT * FROM users WHERE email=${email}`;
