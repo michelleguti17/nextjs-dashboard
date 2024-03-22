@@ -37,7 +37,7 @@ export default function EditInvoiceForm({
               className="peer block w-full cursor-pointer rounded-md border border-gray-200 py-2 pl-10 text-sm outline-2 placeholder:text-gray-500"
               defaultValue={invoice.customer_id}
             >
-              <option value="" disabled>
+              <option value="" >
                 Select a customer
               </option>
               {customers.map((customer) => (
