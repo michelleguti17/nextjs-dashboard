@@ -74,6 +74,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
           </div>
         </div>
         </div>
+        </div>
         {/* Invoice Status */}
         <fieldset>
           <legend className="mb-2 block text-sm font-medium">
@@ -115,7 +116,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
             </div>
           </div>
         </fieldset>
-      </div>
+    
       <div className="mt-6 flex justify-end gap-4">
         <Link
           href="/dashboard/invoices"
