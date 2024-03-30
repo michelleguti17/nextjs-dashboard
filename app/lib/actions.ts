@@ -26,7 +26,6 @@ export async function authenticate(
     throw error;
   }
 }
-
 const FormSchema = z.object({
   id: z.string(),
   customerId: z.string({
